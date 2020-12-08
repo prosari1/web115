@@ -1,0 +1,84 @@
+body {
+  background: rgb(3,37,78);
+  margin: 20px 100px;
+  padding: 20px;
+  font-size: 20px;
+  color: #E7E7E7;
+  font-family: 'Varta', sans-serif;
+}
+
+h1 {
+  font-family: 'Grenze Gotisch', cursive;
+  color: #EFA00B;
+  font-size: 70px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Grenze Gotisch', cursive;
+  color: #EFA00B;
+}
+
+/* FOOTER STYLING */
+
+footer {  
+  text-align: center;
+  padding-top: 5px;
+  color: #E7E7E7;
+}
+
+footer p a {
+  text-align: center;
+  color: #E7E7E7;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #1A395E;
+  border-radius: 10%;
+}
+
+footer p a:hover {
+  background-color: #2F4B6D;
+}
+
+/* NAVIGATION BAR STYLING */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1A395E;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #E7E7E7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* link color to on hover */
+li a:hover {
+  background-color: #2F4B6D;
+}
+
+/* Logo styling  */
+
+.logo-image {
+  cursor: pointer;
+  float: left;
+  position: relative;
+  margin: 10px 15px 15px 10px;
+}
+
+.bg-div {
+ overflow: hidden;
+}
+.nav-bar {
+  float: left;
+}

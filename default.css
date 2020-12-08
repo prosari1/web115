@@ -1,0 +1,220 @@
+/* COLORS 
+rgb(3,37,78) - background;
+#E7E7E7 - font paragraphs 
+#EFA00B - Headings (H1, H2)
+#2F4B6D - hover background
+#88D498 - visited links
+#1A395E - backgorund bottons
+#FE5F55 - ????
+
+*/
+
+body {
+  background: rgb(3,37,78);
+  margin: 10px 100px;
+  padding: 20px;
+  font-size: 20px;
+  color: #E7E7E7;
+  font-family: 'Varta', sans-serif;
+}
+
+main h1 {
+  position: relative;
+}
+
+h1 {
+  font-family: 'Grenze Gotisch', cursive;
+  color: #EFA00B;
+  font-size: 70px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Grenze Gotisch', cursive;
+  color: #EFA00B;
+  font-size: 50px;
+}
+
+/* mouse over link */
+
+a:hover {
+  color: #EFA00B;
+}
+a:link {
+  color: #EFA00B;
+}
+a:visited {
+  color: #88D498;
+}
+a:active {
+  color: #60996d;
+}
+
+/* FOOTER STYLING */
+
+footer {  
+  text-align: center;
+  padding-top: 5px;
+}
+
+footer p a {
+  text-align: center;
+  color: #E7E7E7;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #1A395E;
+  border-radius: 10%;
+}
+
+footer p a:hover {
+  background-color: #2F4B6D;
+}
+
+/* NAVIGATION BAR STYLING */
+
+.nav-bar ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 1px;
+  overflow: hidden;
+  background-color: #1A395E;
+}
+
+.nav-bar li {
+  float: left;
+}
+
+.nav-bar li a {
+  display: block;
+  color: #E7E7E7;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.logo-image {
+  cursor: pointer;
+  float: left;
+  position: relative;
+  margin: 10px 15px 15px 10px;
+}
+
+
+.bg-div2 {
+  width: 100%;
+}
+
+.nav-bar {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.slogan-header{
+  font-family: 'Grenze Gotisch', cursive;
+  color: #EFA00B;
+  font-size: 30px;
+  text-align: right;
+}
+
+
+/* link color to on hover */
+.nav-bar li a:hover {
+  background-color: #2F4B6D;
+}
+
+/* TOC - STYLING */
+
+.toc-style li a {
+  text-decoration: none
+}
+
+/* CODE PLAY STYLING */
+code {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.code-play li{
+  background-color: #2F4B6D;
+  border: 2px solid #FE5F55;
+  padding: 5px;
+}
+
+.input {
+  color: #E7E7E7;
+}
+
+.output {
+  color: #EFA00B;
+}
+
+span {
+  color: #88D498;
+  font-size: 30px;
+}
+
+/* FORM STYLING */
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+input {
+  font-size: 80%;
+  background-color: #bbf6c8;
+  line-height: 25px;
+}
+
+.submit-button {
+  margin-top: 8px;
+  border-radius: 10px;
+  background-color: #f3bd58;
+}
+
+/* SMARTER WAY TO LEARN TEMPLATE STYLING */
+.swtl-top{
+  text-align: center;
+}
+
+.swtl{
+  border-top: 2px solid #f3bd58;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.swtlbutton {
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #f3bd58;
+  font-size: 80%;
+}
+
+/* Chapter 52 Styling */
+
+.chapter52{
+  background-color: #88D498;
+}
+
+.chapter52b{
+  background-color: #EFA00B;
+}
+
+/* Chapter 56 Styling */
+
+.chapter56{
+  background-color: #88D498;
+}
+
+/* Chapter 61 Styling for Div element */
+
+.chap61 {
+  border: 3px solid #88D498;
+}
+
+/* Chapter 62 Styling SPAN */
+
+span{
+  font-size: 20px;
+  color: #E7E7E7;
+  font-family: 'Varta', sans-serif;
+}
