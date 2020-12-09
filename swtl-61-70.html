@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="En">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="styles/default.css">
+	<link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Varta&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/logo-boat.png">
+  <script src="scripts/swtl-script-61-70.js"></script>
+  <title>WEB 115 | SWTL 61-70</title>
+</head>
+<body>
+<header>
+  <div class="bg-div">
+    <a href="brand.html"><img class="logo-image" src="images/logo-boat.png" alt="Logo Brazilian Cuisine" width="93" height="103"></a>
+    <h2>Wonder of the Seas</h2>
+  </div>
+  <div class="bg-div2">
+    <p class="slogan-header"><i>Don't wonder, it's from the oceans to your dish!</i></p>
+  </div>
+
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="http://students.cpcc.edu/~prosari1" target="_blank">CP Webspace</a></li>
+        <li><a href="https://github.com/prosari1" target="_blank">Github</a></li>
+        <li><a href="https://prosari1.github.io/" target="_blank">Github Pages</a></li>
+        <li><a href="https://www.khanacademy.org/profile/prosari1/" target="_blank">Khan Academy</a> </li>
+        <li><a href="https://www.codecademy.com/profiles/prosari1" target="_blank">Codecademy</a></li>
+        <li><a href="https://www.freecodecamp.org/prosari1" target="_blank">FreeCodeCamp</a></li>
+        <li><a href="https://jsfiddle.net/user/prosari1" target="_blank">JSFiddle</a></li>
+        <li><a href="https://profile.edx.org/u/prosari1" target="_blank">EdX</a></li>
+        <li><a href="https://www.linkedin.com/in/pcrosario/" target="_blank">LinkedIn</a></li>
+      </ul>
+    </nav>
+  
+</header>
+<main>
+  <h1>Smarter Way to Learn Chapters 61-70</h1>
+	
+	<!-- Chapter 61 -->
+	
+  <h3 class = "swtl-top">Chapter 61 &mdash; The DOM: Junk artifacts and nodeType</h3>
+  <p>The childNodes property returns a collection of a node's child nodes, as a NodeList object.</p>
+  <p>The nodes in the collection are sorted as they appear in the source code and can be accessed by index numbers. The index starts at 0.</p>
+    
+  <p><strong>Note: </strong>Whitespace inside elements is considered as text, and text is considered as nodes. Comments are also considered as nodes.</p> 
+
+  <p><strong>Tip: </strong>You can use the length property of the NodeList object to determine the number of child nodes, then you can loop through all child nodes and extract the info you want.</p>
+
+ <p>This menu don't have :</p>
+  <div id="myDIV" class="chap61">
+    <p>Index 1: Salmon</p>
+    <p>Index 3: Tuna</p>
+  </div>
+
+ <button class="swtlbutton" onclick="chap61()">Nodes number</button>
+  <p id="demo61"></p>
+  
+	<!-- Chapter 62 -->
+	
+	<h3 class = "swtl">Chapter 62 &mdash; The DOM: More ways to target elements</h3>
+	<p><strong>lastChild: </strong>returns the last child node of the specified node, as a Node object.</p>
+  <p><strong>firstChild: </strong>returns the first child node of the specified node, as a Node object.</p>
+  <p><strong>parentNode: </strong>returns the parent node of the specified node, as a Node object.</p>
+  <p><strong>nextSibling: </strong> returns the node immediately following the specified node, in the same tree level</p>
+  <p><strong>previousSibling: </strong>returns the previous node of the specified node, in the same tree level.</p>
+
+  <p>The last item in this menu is: </p>
+
+  <div id="myDIV2" class="chap61">
+    <p>Salmon</p>
+    <span>Tuna</span>
+  </div>
+
+ <button class="swtlbutton" onclick="chap62()">Last Child</button>
+  <p id="demo62"></p>
+	
+	<!-- Chapter 63 -->
+	
+	<h3 class = "swtl">Chapter 63 &mdash; The DOM: Getting a target's name</h3>
+ 
+  <p><strong>nodeName: </strong>returns the name of the specified node.</p>
+  <p>If the node is an element node, the nodeName property will return the tag name.</p>
+
+  <p>The first element of the div is: </p>
+  <div id="myDIV3" class="chap61">
+    <ul>
+      <li>Salmon</li>
+      <li>Tuna</li>
+      <li>Tilapia</li>
+    </ul>
+  </div>
+
+  <button class="swtlbutton" onclick="chap63()">Click</button>
+
+  <p id="demo63"></p>
+	
+	<!-- Chapter 64 -->
+	
+	<h3 class = "swtl">Chapter 64 &mdash; The DOM: Counting elements</h3>
+  <p>You can use the length property of the NodeList object to determine the number of child nodes.</p>
+
+  <p>The first element of the div is: </p>
+  <div id="myDIV4" class="chap61">
+    <ul>
+      <li>Salmon</li>
+      <li>Tuna</li>
+      <li>Tilapia</li>
+    </ul>
+  </div>
+
+  <button class="swtlbutton" onclick="chap64()">Click</button>
+
+  <p id="demo64"></p>
+   
+	<!-- Chapter 65 -->
+	
+	<h3 class = "swtl">Chapter 65 &mdash; The DOM: Attributes</h3>
+  <p>The <strong>hasAttribute()</strong> method returns true if the specified attribute exists, otherwise it returns false.</p>	
+  <p>The <strong>setAttribute()</strong> method adds the specified attribute to an element, and gives it the specified value.</p>
+  <p>The <strong>getAttribute()</strong> method returns the value of the attribute with the specified name, of an element.</p>
+
+  <input value="OK">
+
+  <p>Click the button below to change the input field to an input button and to add the button CSS style.</p>
+  
+  <button class="swtlbutton" onclick="chap65()">Set Attribute - to Button</button>
+
+  <button class="swtlbutton" onclick="chap65b()">Set Attribute - Class Button</button>
+  
+
+	<!-- Chapter 66 -->
+
+	<h3 class = "swtl">Chapter 66 &mdash; The DOM: Attribute names and values</h3>
+  <p>getAttribute() method returns the value of the attribute with the specified name.</p>
+  
+  <p>The buton bellow get the id to return the onClick value.</p>
+
+  <button class="swtlbutton" id="myButton" onclick="chap66()">Get onClick value</button>
+  <p id="demo66"></p>
+
+  
+	<!-- Chapter 67 -->
+	
+	<h3 class = "swtl">Chapter 67 / 68 &mdash; The DOM: Adding nodes and Inserting nodes</h3>
+  <p>The<strong> createElement()</strong> method creates an Element Node with the specified name.</p>
+  <p>element.innerHTML = "text goes here"; to insert text</p>
+  
+  <div id="myDIV5">
+    <button class="swtlbutton" onclick="chap67()">Create Button</button>
+  </div>
+	
+	<!-- Chapter 69-->				 
+		
+	<h3 class = "swtl">Chapter 69 &mdash; Objects</h3>
+	<p>Creating an object.</p>
+  <button class="swtlbutton" onclick="chap69()">Your order</button>
+  <p id="demo69"></p>
+
+	<!-- Chapter 70-->				 
+	
+	<h3 class = "swtl">Chapter 70 &mdash; Objects: Properties</h3>
+	<p>Object property can be changed, or add an property, or find out if a property exists for an object.</p>
+
+  <button class ="swtlbutton" onclick="chap70()">Change my Drink, please</button>	
+  <p id="demo70"></p>
+
+</main>
+<footer>
+  <br/> Designed by Patricia © 2020
+  <p>
+    <a href="http://validator.w3.org/check?uri=referer" style = "text-decoration: none;">HTML5 &#10004;</a> 
+    <a href="http://jigsaw.w3.org/css-validator/check/referer" style = "text-decoration: none;">CSS &#10004;</a>
+  </p>       
+</footer>
+</body>
+</html>

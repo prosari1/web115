@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="En">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="styles/default.css">
+  <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Varta&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/logo-boat.png">
+  <script src="scripts/swtl-script-41-50.js"></script>
+  <title>WEB 115 | SWTL 41-50</title>
+</head>
+<body>
+<header>
+  <div class="bg-div">
+    <a href="brand.html"><img class="logo-image" src="images/logo-boat.png" alt="Logo Brazilian Cuisine" width="93" height="103"></a>
+    <h2>Wonder of the Seas</h2>
+  </div>
+  <div class="bg-div2">
+    <p class="slogan-header"><i>Don't wonder, it's from the oceans to your dish!</i></p>
+  </div>
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="http://students.cpcc.edu/~prosari1" target="_blank">CP Webspace</a></li>
+        <li><a href="https://github.com/prosari1" target="_blank">Github</a></li>
+        <li><a href="https://prosari1.github.io/" target="_blank">Github Pages</a></li>
+        <li><a href="https://www.khanacademy.org/profile/prosari1/" target="_blank">Khan Academy</a> </li>
+        <li><a href="https://www.codecademy.com/profiles/prosari1" target="_blank">Codecademy</a></li>
+        <li><a href="https://www.freecodecamp.org/prosari1" target="_blank">FreeCodeCamp</a></li>
+        <li><a href="https://jsfiddle.net/user/prosari1" target="_blank">JSFiddle</a></li>
+        <li><a href="https://profile.edx.org/u/prosari1" target="_blank">EdX</a></li>
+        <li><a href="https://www.linkedin.com/in/pcrosario/" target="_blank">LinkedIn</a></li>
+      </ul>
+    </nav>
+  
+</header>
+<main>
+  <h1>Smarter Way to Learn Chapters 31-40</h1>
+	
+	<!-- Chapter 41 -->
+	
+	<h3 class = "swtl-top">Chapter 41 &mdash; while loops</h3>
+  <p>The while loop, like the for loop, loops through a block of code as long as a specified condition is true.</p>
+    <ul><li>var counter is initialized with a value before the loop.</li>
+    <li>The counter is updated within the code.</li>
+    </ul>
+  <button class = "swtlbutton" onclick="chap41()">Let's loop!</button>	
+  <p id="chapter41"></p>
+	
+	<!-- Chapter 42 -->
+	
+	<h3 class = "swtl">Chapter 42 &mdash; do...while loops</h3>
+	<p>The do/while statement creates a loop that executes a block of code once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.</p>
+  <button class = "swtlbutton" onclick="chap42()">Do while loop</button>
+  
+  <p id="chapter42"></p>
+	
+	<!-- Chapter 43 -->
+	
+	<h3 class = "swtl">Chapter 43 &mdash; Placing scripts</h3>
+  <p>In HTML, JavaScript code is inserted between &lt;script&gt; and &lt;/script&gt; tags.<p>
+  <p>You can place any number of scripts in an HTML document. Scripts can be placed in the &lt;body&gt;, or in the &lt;head&gt; section of an HTML page, or in both.</p>
+
+	<!-- Chapter 44 -->
+	
+	<h3 class = "swtl">Chapter 44 &mdash; Commenting</h3>
+  <p>Comments can be used to explain JavaScript code, and to make it more readable.</p>
+  <p>Single line comments start with //</p>
+  <p>Multi-line comments start with /* and end with */.</p>
+
+	<!-- Chapter 45 -->
+	
+	<h3 class = "swtl">Chapter 45 &mdash; Events: Link</h3>
+  <p>HTML events are "things" that happen to HTML elements. When JavaScript is used in HTML pages, JavaScript can "react" on these events.
+    HTML allows event handler attributes, with JavaScript code, to be added to HTML elements.
+  </p>
+  <p><strong>onClick: </strong>keyword that tells the browser to watch for a click on a link.</p>
+  
+  <a href="JavaScript:void(0)" onClick=
+  "alert('Welcome to Wonder of the Seas!');">Welcome</a>
+    
+	<!-- Chapter 46 -->
+
+	<h3 class = "swtl">Chapter 46 &mdash; Events: button</h3>
+  <p>The code creates a button that, when clicked, calls a function.</p>
+  <p>
+    &lt;input type="button" value="Click" onClick="doSomething();"&gt;
+  </p>
+	<input class="swtlbutton" type="button" value="Click me" onClick="chap46();">
+  
+	<!-- Chapter 47 -->
+	
+	<h3 class = "swtl">Chapter 47 &mdash; Events: mouse</h3>
+  <p><strong>onMouseOver - </strong>The user moves the mouse over an HTML element.</p>
+  <p><strong>onMouseOut - </strong>The user moves the mouse away from an HTML element.</p>
+  <img alt="Logo image" src="images/logo-initials.png" onMouseover="src='images/logo-boat.png'" onMouseout="src='images/logo-initials.png'">
+
+	<!-- Chapter 48-->
+	
+	<h3 class = "swtl">Chapter 48 &mdash; Events: fields</h3>
+  <p><strong>onFocus - </strong>keyword for detecting that the user has clicked in a field</p>
+  <p><strong>onBlur - </strong>keyword for detecting that a field no longer has the focus</p>
+	<input type="text" onFocus="this.style.backgroundColor = 'orange';" onBlur="this.style.backgroundColor = 'green';">
+  
+	<!-- Chapter 49-->				 
+		
+	<h3 class = "swtl">Chapter 49 &mdash; Reading fields values</h3>
+  <p>How to read field values which are the information users enter into a form field.</p>
+  <p><strong>onSubmit - </strong> keyword for detecting that the user has submitted a form</p>
+
+  <p>Enter your order:<br></p>
+<form onSubmit="chap49();">
+  <input type="text" id="firstorder">
+  <input class="swtlbutton" type="submit" value="Submit">
+</form>
+  
+	<!-- Chapter 50-->				 
+		
+	<h3 class = "swtl">Chapter 50 &mdash; Setting fields values</h3>
+  <p>When you set the form field values, it means it will automatic fill in values for form fields based on other values the users have input
+  </p>
+  <form>
+  	<label for="order-guest">Order:</label><br> 
+  	<input type="text" id="order-guest" name="order" value="" placeholder="Enter your order here"><br>
+  	<label for="answer">Ready?</label><br>
+  	<input type="text" id="answer" name="answer" placeholder=""><br>
+	</form> 
+	<button class ="swtlbutton" onClick="chap50();">Submit</button>
+</main>
+<footer>
+  <br/> Designed by Patricia © 2020
+  <p>
+    <a href="http://validator.w3.org/check?uri=referer" style = "text-decoration: none;">HTML5 &#10004;</a> 
+    <a href="http://jigsaw.w3.org/css-validator/check/referer" style = "text-decoration: none;">CSS &#10004;</a>
+  </p>       
+</footer>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="En">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="styles/default.css">
+  <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Varta&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/logo-boat.png">
+  <script src="scripts/swtl-script-11-20.js"></script>
+  <title>WEB 115 | SWTL 11-20</title>
+</head>
+<body>
+<header>
+  <div class="bg-div">
+    <a href="brand.html"><img class="logo-image" src="images/logo-boat.png" alt="Logo Brazilian Cuisine" width="93" height="103"></a>
+    <h2>Wonder of the Seas</h2>
+  </div>
+  <div class="bg-div2">
+    <p class="slogan-header"><i>Don't wonder, it's from the oceans to your dish!</i></p>
+  </div>
+
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="http://students.cpcc.edu/~prosari1" target="_blank">CP Webspace</a></li>
+        <li><a href="https://github.com/prosari1" target="_blank">Github</a></li>
+        <li><a href="https://prosari1.github.io/" target="_blank">Github Pages</a></li>
+        <li><a href="https://www.khanacademy.org/profile/prosari1/" target="_blank">Khan Academy</a> </li>
+        <li><a href="https://www.codecademy.com/profiles/prosari1" target="_blank">Codecademy</a></li>
+        <li><a href="https://www.freecodecamp.org/prosari1" target="_blank">FreeCodeCamp</a></li>
+        <li><a href="https://jsfiddle.net/user/prosari1" target="_blank">JSFiddle</a></li>
+        <li><a href="https://profile.edx.org/u/prosari1" target="_blank">EdX</a></li>
+        <li><a href="https://www.linkedin.com/in/pcrosario/" target="_blank">LinkedIn</a></li>
+      </ul>
+    </nav>
+  
+</header>
+<main>
+  <h1>Smarter Way to Learn Chapters 11-20</h1>
+	
+	<!-- Chapter 11 -->
+	
+	<h3 class = "swtl-top">Chapter 11 &mdash; Comparison operators</h3>
+	<p>These are the comparison operators: ===, !==, >, and &lt;. You can compare different data types using the comparison operators.
+	</p>
+	<button class = "swtlbutton" onclick="chap11()">Equal</button>	<button class = "swtlbutton" onclick="chap11b()">Not Equal</button>
+	
+	<!-- Chapter 12 -->
+	
+	<h3 class = "swtl">Chapter 12 &mdash; <i>if...else </i>and <i>else if</i> statements</h3>
+	<p>Else test for a condition when all the previous tests have failed.
+	</p>
+	<button class = "swtlbutton" onclick="chap12()">Order</button><br>
+	
+	<!-- Chapter 13 -->
+	
+	<h3 class = "swtl">Chapter 13 &mdash; Testing sets of conditions</h3>
+	<p>To test more than one condition using the if statement you can add (&&) two conditions; or use the || to test if either condition is true. 
+	</p>
+	<button class = "swtlbutton" onclick="chap13()">&&</button><button class = "swtlbutton" onclick="chap13b()">||</button><br>
+	
+	<!-- Chapter 14 -->
+	
+	<h3 class = "swtl">Chapter 14 &mdash; <i>if </i>statements nested</h3>
+  <p>An alternative to using && to test multiple conditions in a single if statement is to use nested ifs statements. The second if statement needs to be indented. 
+  </p>
+  <button class = "swtlbutton" onclick="chap14()">Nested</button>
+
+
+	<!-- Chapter 15 -->
+	
+	<h3 class = "swtl">Chapter 15 &mdash; Arrays</h3>
+	<p>An array comprises any number of values. In an array, the numbering starts with zero.
+  </p>	
+	<button class = "swtlbutton" onclick="chap15()">My array</button><br>
+	
+	<!-- Chapter 16 -->
+
+	<h3 class = "swtl">Chapter 16 &mdash; Arrays: adding and removing elements</h3>
+  <p>POP removes the last element from an array.</p>
+  <p>PUSH adds one or more elements to the end of an array.</p>
+	<button class="swtlbutton" onclick="chap16()">My array pop and push</button>
+	
+	<!-- Chapter 17 -->
+	
+	<h3 class = "swtl">Chapter 17 &mdash; Arrays: removing, inserting, and extracting elements</h3>
+	
+	<p>SHIFT removes first element of an array.</p>
+  <p>UNSHIFT adds one or more elements to the beginning of an array</p>
+  <p>SPLICE inserts new elements anywhere in an array and/or removes elements from an array</p>
+  <p>SLICE copies elements from an array to another array.</p>
+	<button class ="swtlbutton" onclick="chap17()">Shift</button>
+	<button class ="swtlbutton" onclick="chap17b()">Unshift</button>
+  <button class ="swtlbutton" onclick="chap17c()">Splice</button>
+  <button class ="swtlbutton" onclick="chap17d()">Slice</button>
+
+	<!-- Chapter 18-->
+	
+	<h3 class = "swtl">Chapter 18 &mdash; for loops</h3>
+  <p>Loops are very useful. If you want to run the same code over and over again, each time with a different value.</p>
+  <p>In this example, if you order something from the Menu array, it will check all the options to find the same value, then return the alert message.</p>
+	<button class ="swtlbutton" onclick="chap18()">Check it out!</button>
+	
+	<!-- Chapter 19-->				 
+		
+	<h3 class = "swtl">Chapter 19 &mdash; for loops: flags, Booleans, array length, and loopus interruptus</h3>
+  <p>BREAK stops a loop from continuing to loop.</p>
+  <p>.length number of elements in the array to the variable</p>
+	<button class ="swtlbutton" onclick="chap19()">Prompt box</button>
+		
+	<!-- Chapter 20-->				 
+	
+	<h3 class = "swtl">Chapter 20 &mdash; for loops nested</h3>
+	<p>For loops can be nested inside another. In this case, so if you have 3 iterations in one loop and the inner loop with 4 iterations, you're going to have a total of 12 iterations. The loop stops when all iterations are complete. 
+  </p>
+  <p id="chapter20"></p>
+	<button class ="swtlbutton" onclick="chap20()">Loop</button>	 
+</main>
+<footer>
+  <br/> Designed by Patricia © 2020
+  <p>
+    <a href="http://validator.w3.org/check?uri=referer" style = "text-decoration: none;">HTML5 &#10004;</a> 
+    <a href="http://jigsaw.w3.org/css-validator/check/referer" style = "text-decoration: none;">CSS &#10004;</a>
+  </p>       
+</footer>
+</body>
+</html>
